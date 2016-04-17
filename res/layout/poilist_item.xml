@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+
+
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textSize="24dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tvAdress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical" />
+
+
+
+
+
+
+
+</LinearLayout>

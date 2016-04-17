@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.deuxpiedsdeuxroues.velobs" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="VelObs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GeoLocActivity"
+            android:label="@string/title_activity_geo_loc"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CategoryActivity"
+            android:label="@string/title_activity_category"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AddressActivity"
+            android:label="@string/title_activity_adresse"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DescriptionActivity"
+            android:label="@string/title_activity_description"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PropositionActivity"
+            android:label="@string/title_activity_proposition"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PictureAndSendActivity"
+            android:label="@string/title_activity_picture"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MailActivity"
+            android:label="@string/title_activity_mail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ProximityPoiListActivity"
+            android:label="@string/title_activity_prox_poi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ReviewProximityPoiActivity"
+            android:label="@string/title_activity_check_poi"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name=".UpdateProximityPoiActivity"
+            android:label="@string/title_activity_update_proximity_poi"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- api key google maps velobs -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="ici insérer votre clé google maps pour ce projet" />
+
+
+    </application>
+
+</manifest>

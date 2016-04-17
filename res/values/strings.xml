@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">VelObs</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_geo_loc">GeoLocActivity</string>
+    <string name="title_activity_record">RecordActivity</string>
+    <string name="rueName">Nom de la voie :</string>
+    <string name="na">n/a</string>
+    <string name="buttonRecordLabel">Ajouter</string>
+    <string name="repereText">Repère :</string>
+    <string name="description">Description du problème :</string>
+    <string name="proposition">Proposition d\'amélioration :</string>
+    <string name="typeprobText">Type d\'observation :</string>
+    <string name="catspinner_prompt">Catégorie</string>
+    <string name="photo">Photo :</string>
+    <string name="clear">Effacer</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="appeler">Appeler le service</string>
+    <string name="texteAppelServices">En cas d\'urgence sur la ville de Toulouse, veuillez appeler le 05 61 222 222 </string>
+    <string name="posternouvelleobservation">Poster une observation</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_adresse">AdresseActivity</string>
+    <string name="title_activity_description">DescriptionActivity</string>
+    <string name="title_activity_proposition">PropositionActivity</string>
+    <string name="title_activity_picture">PictureActivity</string>
+    <string name="photobutton">Prendre une photo</string>
+    <string name="album_name">Velobs</string>
+    <string name="cannot">cannot</string>
+    <string name="url_servername">inserer ici le nom de votre serveur</string>
+    <string name="title_activity_send_obs">SendObsActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_mail">MailActivity</string>
+    <string name="title_activity_prox_poi">ProxPOIActivity</string>
+    <string name="title_activity_check_poi">CheckPOIActivity</string>
+    <string name="title_activity_update_proximity_poi">UpdateProximityPoiActivity</string>
+</resources>
