@@ -178,6 +178,7 @@ public class UpdateProximityPoiActivity extends ActionBarActivity {
 
                         builder.addTextBody("id", VelobsSingleton.getInstance().poi.getId());
                         builder.addTextBody("comment",descriptionText.getText().toString() );
+                        builder.addTextBody("mail",VelobsSingleton.getInstance().mail);
 
                         final HttpEntity yourEntity = builder.build();
 
